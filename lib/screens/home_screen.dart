@@ -6,7 +6,7 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final List<Map<String, String>> categories = [
+    final GridView<Map<String, String>> categories = [
       {'name': 'Christmas Tree', 'icon': '🎄'},
       {'name': 'Lights', 'icon': '💡'},
       {'name': 'Stockings', 'icon': '🧦'},
